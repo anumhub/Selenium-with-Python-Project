@@ -1,6 +1,6 @@
-# Selenium with Python – Rahul Shetty Udemy Project 🚀
+# Selenium with Python – E-Commerce Project 🚀
 
-A sample test automation framework built using Selenium WebDriver and Python, based on Rahul Shetty’s Udemy course content. 
+A sample test automation framework built using Selenium WebDriver and Python( pytest is a test runner) 
 The project demonstrates Page Object Model (POM), utility modules, test data handling, reporting, and configuration management.
 
 ---
