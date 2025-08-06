@@ -7,12 +7,12 @@ The project demonstrates Page Object Model (POM), utility modules, test data han
 
 ## 🗂️ Repository Structure
 selenium-python-framework/
-├── PythonSel # Shared test scripts (e.g., login, navigation tests)
-├── POM/ # Page Object Model classes (one Python class per page)
-├── Utils/ # Utility modules (e.g., helpers, wait functions)
-├── Data/ # Test data files (e.g.JSON)
-├── Reports/ # Test output/reports (HTML, screenshots, logs)
-├── config.py # Central configuration (URLs, credentials, browser settings)
+- PythonSel -->Shared test scripts (e.g., login, navigation tests)
+- POM/ --> Page Object Model classes (one Python class per page)
+- Utils/ --> Utility modules (e.g., helpers, wait functions)
+- Data/ --> Test data files (e.g.JSON)
+- Reports/ --> Test output/reports (HTML, screenshots, logs)
+- config.py--> Central configuration (URLs, credentials, browser settings)
 
 ## ⚙️ Getting Started
 
@@ -32,21 +32,21 @@ selenium-python-framework/
 
 ### Usage & Running Tests
 
-Run all tests:
+- Run all tests:
 pytest --html=Reports/report.html
-Run a specific test:
+- Run a specific test:
 pytest Common/test_login.py --html=Reports/login_report.html
-Results: 
+- Results: 
 Test reports (HTML) and logs/screenshots, if any, will be generated in the Reports/ folder.
 
 ### Folder Descriptions
 
-PythonSel/: Functional test scripts using POM classes for actions and assertions.
-POM/: Encapsulates UI interactions per page (locators, methods).
-Utils/: Helper modules (waits, config handling, screenshot capture).
-Data/: Static test data resources.
-Reports/: Output results — HTML reports, logs, failure screenshots.
-config.py: Centralizes browser settings, environment properties, login credentials.
+- PythonSel/: Functional test scripts using POM classes for actions and assertions.
+- POM/: Encapsulates UI interactions per page (locators, methods).
+- Utils/: Helper modules (waits, config handling, screenshot capture).
+- Data/: Static test data resources.
+- Reports/: Output results — HTML reports, logs, failure screenshots.
+- config.py: Centralizes browser settings, environment properties, login credentials.
 
 
 
